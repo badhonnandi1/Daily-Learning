@@ -1,17 +1,18 @@
-import Button from "./buttom.jsx";
-import ProfilePicture from "./ProfilePicture.jsx"
+
+import MyComponent from "./MyComponents";
+import Counter from "./Counter.jsx";
 function App()
 {
     return(
         <>
-        {/* <Button/> */}
-        <ProfilePicture/>
+        {/* <MyComponent/> */}
+        <Counter/>
         </>
 );
 }
 export default App
 
 
+// react hook = spacial function that allows functional components to use React features without writing components. (useState, useEffect,usecContext, useReducer, useCallback...)
 
-// click event => an interaction when a user clicks on aspacific element 
-// we can respond to click by passing a callback to the onclick event handler
+// useState() = A React hook that allows the creation of a stateful variable and a setter function to update its value in the virtual DOM.
